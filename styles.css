@@ -1,7 +1,7 @@
 /*
 Colors
 Yellow #ffd05a
-Light Blue
+Light Blue #55c0ec
 Dark Blue #40596b
 Green #90ddaa
 Light Gray #fafafa
@@ -12,15 +12,15 @@ Light Gray #fafafa
 * { margin:0; padding:0; border:0;}
 body {
 	font-family: 'Signika', sans-serif;
+	text-align: center;
 	line-height: 1.5;
 	font-size: 1.25rem;
-	font-weight: 300;
 	color: rgba(0,0,0, 0.75);
 	background-color: #fafafa;
 	box-sizing: border-box;
 }
 
-header {
+header, footer {
 	width:100%;
 	background-color: #40596b;
 	padding: 2% 0;
@@ -28,7 +28,6 @@ header {
 header nav {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 }
 header nav a {
 	color: #ffd05a;
@@ -37,4 +36,36 @@ header nav a {
 }
 header nav a:hover {
 	color: #ffffff;
+}
+footer p {
+	color: #ffffff;
+	font-size: .75rem;
+}
+
+.bold {font-weight: 600;}
+h1 {
+	text-align: center;
+	font-size: 4rem;
+}
+h2 {
+	text-align: center;
+}
+
+.col-wrapper { display: flex;}
+.two-col { width: 50%;}
+
+#home {
+	background-color: #55c0ec;
+	display: flex;
+	flex-direction: row;
+}
+#about {
+	text-align: left;
+
+}
+#features {
+	background-color: #90ddaa;
+}
+#features figure {
+	width: 33.33%
 }
