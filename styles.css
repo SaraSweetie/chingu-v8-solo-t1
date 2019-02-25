@@ -7,7 +7,7 @@ Green #90ddaa
 Light Gray #fafafa
 
 */
-@import url('https://fonts.googleapis.com/css?family=Signika');
+@import url('https://fonts.googleapis.com/css?family=Signika:300,600');
 
 * { margin:0; padding:0; border:0;}
 body {
@@ -15,6 +15,7 @@ body {
 	text-align: center;
 	line-height: 1.5;
 	font-size: 1.25rem;
+	font-weight: 300;
 	color: rgba(0,0,0, 0.75);
 	background-color: #fafafa;
 	box-sizing: border-box;
@@ -46,9 +47,11 @@ footer p {
 h1 {
 	text-align: center;
 	font-size: 4rem;
+	font-weight: 300;
 }
 h2 {
 	text-align: center;
+	font-weight: 300;
 }
 
 .col-wrapper { display: flex;}
