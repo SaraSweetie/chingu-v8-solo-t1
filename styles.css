@@ -1,6 +1,6 @@
 /*
 Colors
-Yellow ##ffd05a
+Yellow #ffd05a
 Light Blue
 Dark Blue #40596b
 Green #90ddaa
@@ -9,10 +9,32 @@ Light Gray #fafafa
 */
 @import url('https://fonts.googleapis.com/css?family=Signika');
 
+* { margin:0; padding:0; border:0;}
 body {
 	font-family: 'Signika', sans-serif;
 	line-height: 1.5;
 	font-size: 1.25rem;
+	font-weight: 300;
 	color: rgba(0,0,0, 0.75);
 	background-color: #fafafa;
+	box-sizing: border-box;
+}
+
+header {
+	width:100%;
+	background-color: #40596b;
+	padding: 2% 0;
+}
+header nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header nav a {
+	color: #ffd05a;
+	text-decoration: none;
+	margin: 0 1%;
+}
+header nav a:hover {
+	color: #ffffff;
 }
