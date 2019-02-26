@@ -53,6 +53,13 @@ h2 {
 	text-align: center;
 	font-weight: 300;
 }
+h2::after {
+	content: "";
+	border-bottom:3px solid #55c0ec;
+	max-width: 160px;
+	display: block;
+	/*need to center this somehow*/
+}
 
 .col-wrapper { display: flex;}
 .two-col { width: 50%;}
