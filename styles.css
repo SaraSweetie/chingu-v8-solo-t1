@@ -62,7 +62,9 @@ h2::after {
 	border-bottom:3px solid #55c0ec;
 	max-width: 160px;
 	display: block;
-	/*need to center this somehow*/
+	position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 /* Slack cta buttons */
 button {
