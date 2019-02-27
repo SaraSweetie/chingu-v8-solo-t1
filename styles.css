@@ -9,7 +9,7 @@ Light Gray #fafafa
 */
 @import url('https://fonts.googleapis.com/css?family=Signika:300,600');
 
-* { margin:0; padding:0; border:0;}
+* { margin:0; padding:0; border:0; font-weight: 300;}
 body {
 	font-family: 'Signika', sans-serif;
 	text-align: center;
@@ -24,7 +24,7 @@ body {
 header, footer {
 	width:100%;
 	background-color: #40596b;
-	padding: 2% 0;
+	padding: 1.5% 0;
 }
 header nav {
 	display: flex;
@@ -46,7 +46,7 @@ footer p {
 .bold {font-weight: 600;}
 h1 {
 	text-align: center;
-	font-size: 4rem;
+	font-size: 5rem;
 	font-weight: 300;
 }
 h2 {
@@ -60,14 +60,51 @@ h2::after {
 	display: block;
 	/*need to center this somehow*/
 }
+/* Slack cta buttons */
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background-color: #40596b;
+	margin: 2% auto;
+	padding: 3% 8%;
+	border-radius: 5px;
+	width: 300px;
+}
+button img {
+	width: 40px;
+}
+button a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.7rem;
+}
 
 .col-wrapper { display: flex;}
 .two-col { width: 50%;}
+
+section {
+	padding: 2% 4%;
+}
 
 #home {
 	background-color: #55c0ec;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+	height:65vh;
+	padding: 2% 6%;
+}
+#home p {
+	color: #ffffff;
+	font-size: 1.7rem;
+	margin: 1% 0 2% 0;
+	padding: 0 2%;
+}
+#home .tickybot {
+	width: 375px;
+	margin: 4%;
 }
 #about {
 	text-align: left;
