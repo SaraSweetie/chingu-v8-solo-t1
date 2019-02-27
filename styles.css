@@ -129,5 +129,25 @@ section {
 	background-color: #90ddaa;
 }
 #features figure {
-	width: 33.33%
+	width: 33.33%;
+	margin:1.5%;
+	background-color: #40596b;
+	border-radius: 5px;
+}
+#features img {
+	max-width: 224px;
+	padding: 55px 3%;
+}
+#features figcaption{
+	width: 90%;
+	padding: 6% 5% 8% 5%;
+	background-color: #ffffff;
+}
+code {
+	background-color: #f2f2f2;
+	border-radius: 2px;
+    color: crimson;
+    font-size: 1.3rem;
+    padding: 1px;
+    margin: 0;
 }
