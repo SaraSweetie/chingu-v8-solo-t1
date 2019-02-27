@@ -54,7 +54,7 @@ h2 {
 	font-size: 2.5rem;
 	text-align: center;
 	font-weight: 300;
-	margin-bottom: 2%;
+	margin-bottom: 3%;
 	letter-spacing: -2px;
 }
 h2::after {
@@ -72,12 +72,15 @@ button {
 	align-content: center;
 	background-color: #40596b;
 	margin: 2% auto;
-	padding: 3% 8%;
+	padding: 3% 6%;
 	border-radius: 5px;
 	width: 300px;
+	font-family: 'Signika', sans-serif;
+	font-size: 1.4rem;
 }
 button img {
 	width: 40px;
+	margin-right: 8%;
 }
 button a {
 	text-decoration: none;
@@ -105,10 +108,17 @@ section {
 	font-size: 1.7rem;
 	margin: 1% 0 2% 0;
 	padding: 0 2%;
+	font-weight: 300;
 }
 #home .tickybot {
 	width: 375px;
 	margin: 4%;
+}
+#home button {
+	background-color: #ffffff;
+}
+#home button a {
+	color: #40596b;
 }
 
 #about {
@@ -151,3 +161,12 @@ code {
     padding: 1px;
     margin: 0;
 }
+
+#add {
+	max-width: 560px;
+	margin: 0 auto;
+}
+#add button {
+	margin: 100px auto;
+}
+
