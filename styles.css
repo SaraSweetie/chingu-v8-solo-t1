@@ -141,9 +141,10 @@ section {
 #home p {
 	color: #ffffff;
 	font-size: 1.7rem;
-	margin: 1% 0 2% 0;
+	margin: 1% auto 2% auto;
 	padding: 0 2%;
 	font-weight: 300;
+	max-width: 400px;
 }
 #home .tickybot {
 	width: 375px;
@@ -179,15 +180,20 @@ section {
 	margin:1.5%;
 	background-color: #40596b;
 	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	align-items: center;
 }
 #features img {
 	max-width: 224px;
-	padding: 55px 3%;
+	margin: 40px 20px;
 }
 #features figcaption{
 	width: 90%;
 	padding: 6% 5% 8% 5%;
 	background-color: #ffffff;
+	flex: 1 auto;
 }
 code {
 	background-color: #f2f2f2;
