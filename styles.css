@@ -147,7 +147,9 @@ section {
 	max-width: 400px;
 }
 #home .tickybot {
-	width: 375px;
+	max-width: 85%;
+	min-width: 325px;
+	height: auto;
 	margin: 4%;
 }
 #home button {
