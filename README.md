@@ -15,3 +15,15 @@ Bonus:
 
 ## Images
 The images were prodived by Chingu. [tickybot-assets](https://github.com/Chingu-cohorts/tickybot-assets)
+
+## Project Reflection
+
+You can view [My Tickybot clone](https://sarasweetie.github.io/chingu-v8-solo-t1/). 
+
+The project went well for me. I have a solid understanding of HTML and CSS. I used Flexbox for the layout and @keyframes for the button:hover animations. I added media queries for a responsive design. I implemented scroll-behavior: smooth; for smooth scrolling but with limited browser support am looking into using Javascript.
+
+Project To-Do:
+* smooth scrolling with Javascript
+* animate in the first time the page loads
+* animate the 3 boxes in How it Works when scrolling
+* animate the back to top button, fade in when scrolling and add the bounce
