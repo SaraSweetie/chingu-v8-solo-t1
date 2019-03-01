@@ -10,6 +10,11 @@ Light Gray #fafafa
 @import url('https://fonts.googleapis.com/css?family=Signika:300,600');
 
 * { margin:0; padding:0; border:0; font-weight: 300;}
+html {
+	/*smooth scrolling for jump/anchor links*/
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+}
 body {
 	font-family: 'Signika', sans-serif;
 	text-align: center;
