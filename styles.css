@@ -99,7 +99,7 @@ h2::after {
 	opacity: 0.9;
 	transition: opacity 0.5s ease-in-out;
 	transform: scale(0.98);
-	transition: transform 0.5s ease-in-out 0.5s;
+	transition: transform 0.5s ease-in-out 0.4s;
 }
 .cta:hover img {
 	transform: scale(1.55) rotate(18deg);
@@ -136,7 +136,7 @@ section {
 	flex-direction: row;
 	align-items: center;
 	height:65vh;
-	padding: 2% 4%;
+	padding: 0 4%;
 }
 #home p {
 	color: #ffffff;
@@ -219,3 +219,59 @@ code {
 	transform: scale(0.98);
 	transition: transform 0.5s ease-in-out 0.5s;
 }
+
+@media (max-width: 860px){
+	.two-col {
+	    width: 100%;
+	    margin: 2% 0;
+	}
+	#home {
+		display: block;
+		height: auto;
+		padding: 2% 4%;
+	}
+	#home .tickybot {
+		min-width: 275px;
+		height: auto;
+		margin: 4%;
+	}
+	.col-wrapper { 
+		flex-wrap: wrap;
+	}
+	#features figure {
+		width: 46%;
+		margin:2%;
+	}
+	#features figure:last-of-type {
+		width: 98%;
+	}
+}
+
+@media (max-width: 600px){
+
+	#features figure {
+		width: 98%;
+	}
+	section {
+		padding: 2% 8% 4% 8%;
+	}
+	header, footer {
+		padding: 4% 0;
+	}
+}
+
+@media (max-width: 400px){
+
+	.cta {
+		margin: 2% auto;
+		padding: 3% 6%;
+		border-radius: 5px;
+		width: 80%;
+	}
+	#add .cta {
+	    margin: 30px auto;
+	}
+
+}
+
+
