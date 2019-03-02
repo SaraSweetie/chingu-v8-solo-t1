@@ -5,8 +5,28 @@ Light Blue #55c0ec
 Dark Blue #40596b
 Green #90ddaa
 Light Gray #fafafa
-
 */
+
+/* Animation Keyframes*/
+.slideIn {
+  animation-name: slideIn;
+  animation-duration: 1.5s;
+  visibility: visible;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.hidden { visibility: hidden; }
+
+
 @import url('https://fonts.googleapis.com/css?family=Signika:300,600');
 
 * { margin:0; padding:0; border:0; font-weight: 300;}
@@ -184,14 +204,13 @@ section {
 	border-radius: 5px;
 	display: flex;
 	flex-direction: column;
-	align-items: stretch;
 	align-items: center;
 }
 #features img {
 	max-width: 224px;
 	margin: 40px 20px;
 }
-#features figcaption{
+#features figcaption {
 	width: 90%;
 	padding: 6% 5% 8% 5%;
 	background-color: #ffffff;

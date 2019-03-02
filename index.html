@@ -8,6 +8,7 @@
 	<meta name="description" content="Tickybot, Chingu">
   	<meta name="author" content="Sara Krum">
 	<link rel="stylesheet" href="styles.css">
+	<script src="main.js"></script>
 </head>
 
 <body>
@@ -23,16 +24,16 @@
 	
 	<section id="home">
 		<div class="two-col">
-			<h1><span class="bold">Ticky</span>Bot</h1>
-			<p>Let your team manage their support tickets 100% in Slack</p>
-			<button class="cta"><img src="images/slack.svg" alt=""/><a href="https://slack.com">Add to <span class="bold">Slack</span></a></button>
+			<h1 class="slideIn"><span class="bold">Ticky</span>Bot</h1>
+			<p class="slideIn">Let your team manage their support tickets 100% in Slack</p>
+			<button class="cta slideIn"><img src="images/slack.svg" alt=""/><a href="https://slack.com">Add to <span class="bold">Slack</span></a></button>
 		</div>
-		<div class="two-col">
-			<img src="images/tickybot.svg" class="tickybot" alt="tickybot"/>
+		<div class="two-col slideIn">
+			<img src="images/tickybot.svg" class="tickybot"  alt="tickybot"/>
 		</div>
 	</section>
 	<section id="about">
-		<h2>What Is <span class="bold">Ticky</span>Bot</h2>
+		<h2 class="slideIn">What Is <span class="bold">Ticky</span>Bot</h2>
 		<div class="col-wrapper">
 		<div class="two-col">
 			<p><span class="bold">Ticky</span>Bot is a Slack Bot 🤖 that lets you use support tickets on Slack. This way, you don't need to leave your beloved channel to assist your users, if you don't feel like it.</p>
@@ -47,15 +48,15 @@
 	<section id="features">
 		<h2>How It Works</h2>
 		<div class="col-wrapper">
-		<figure>
+		<figure class="hidden">
 			<img src="images/workplace.svg" alt=""/>
 			<figcaption>You can add <span class="bold">Ticky</span>Bot to your Slack workplace by scrolling down or <a href="#add">clicking here</a></figcaption>
 		</figure>
-		<figure>
+		<figure class="hidden">
 			<img src="images/bubble.svg" alt=""/>
 			<figcaption>Your users can open a ticket by typing <code>/ticket</code>  and their message into the chat field</figcaption>
 		</figure>
-		<figure>
+		<figure class="hidden">
 			<img src="images/tasks.svg" alt=""/>
 			<figcaption>Once you or another admin solved their problems you can type <code>/ticket close #id</code>  to close the ticket</figcaption>
 		</figure>
