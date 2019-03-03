@@ -1,42 +1,15 @@
-let firstFive = [];
-
-window.onload = function() {fadeEachIn(firstFive)};
-
-function fadeEachIn(firstFive) {
-  let elements = document.getElementsByClassName('element');
-
-  firstFive.push(elements);
-
-  console.log(elements);
-
-  firstFive.forEach(function(element, i) {
-	console.log(firstFive);
-	// use setTimeout to delay fadeIn of first 5 elements onload
-	setTimeout(function(){
-		//element.classList.remove("element");
-		element.classList.add("slideIn");
-	}, 200 * (i + 1));
-
-	});
-}
-
-/*window.onload = function() {fadeEachIn()};
+window.onload = function() {fadeEachIn()};
 
 function fadeEachIn() {
-  let elements = document.getElementsByClassName('element');
-  
-  console.log(elements);
 
-  elements.forEach(function(element, i) {
-	console.log(element);
-	// use setTimeout to delay fadeIn of first 5 elements onload
-	setTimeout(function(){
-		//element.classList.remove("element");
-		element.classList.add("slideIn");
-	}, 200 * (i + 1));
-
+	Array.from(document.querySelectorAll(".element")).forEach(
+	function(e, i) {
+	    setTimeout(function(){
+			e.classList.remove("element");
+			e.classList.add("slideIn");
+		}, 300 * (i + 1));
 	});
-}*/
+}
 
 window.onscroll = function() {animateInScroll()};
 
