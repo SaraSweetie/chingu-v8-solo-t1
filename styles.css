@@ -12,6 +12,7 @@ Light Gray #fafafa
   animation-name: slideIn;
   animation-duration: 1.5s;
   visibility: visible;
+  transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
 }
 
 @keyframes slideIn {

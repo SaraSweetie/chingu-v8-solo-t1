@@ -1,9 +1,10 @@
 window.onload = function() {fadeEachIn()};
 
 function fadeEachIn() {
-
+	// add class .slideIn to first 5 elements onload
 	Array.from(document.querySelectorAll(".element")).forEach(
 	function(e, i) {
+		// use setTimeout to delay fadeIn forEach 0.3s
 	    setTimeout(function(){
 			e.classList.remove("element");
 			e.classList.add("slideIn");
