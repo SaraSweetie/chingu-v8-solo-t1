@@ -14,9 +14,9 @@ function animateIn() {
 			}, 400 * (i + 1));
 		});
 	}
-	if (document.body.scrollTop > 650 || document.documentElement.scrollTop > 650){
+	if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400){
 		// show back to top button
-		document.getElementById('bbt').className = "bounceIn";
+		document.getElementById('btt').className = "bounceIn";
 		console.log('button should be visible');
 	} 
 }
