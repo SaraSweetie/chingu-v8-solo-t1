@@ -2,10 +2,9 @@ window.onscroll = function() {animateIn()};
 
 function animateIn() {
 	// add class .slideIn to figures when scroll height is 550px
-	console.log('function triggered');
 	if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550){
 
-		let fadeIn = document.querySelectorAll('figure');
+		let fadeIn = document.querySelectorAll('#features figure');
 
 		fadeIn.forEach(function(element, i) {
 			// use setTimeout to delay fadeIn forEach 0.4s
@@ -14,5 +13,10 @@ function animateIn() {
 				element.classList.add("slideIn");
 			}, 400 * (i + 1));
 		});
+	}
+	if (document.body.scrollTop > 650 || document.documentElement.scrollTop > 650){
+		// show back to top button
+		document.getElementById('bbt').className = "bounceIn";
+		console.log('button should be visible');
 	} 
 }
